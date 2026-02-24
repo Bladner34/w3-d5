@@ -13,3 +13,7 @@ const doubledScores = scores.map((score)=> {
     return score * 2
 });
 console.log(doubledScores);
+
+tags.forEach(function(tag){
+    console.log(tag);
+});
